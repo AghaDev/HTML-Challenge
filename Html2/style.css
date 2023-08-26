@@ -1,0 +1,38 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: cyan;
+}
+.navbar {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px auto;
+  font-size: 32px;
+  background-color: #868181;
+}
+
+img {
+  margin-left: 20%;
+}
+ul{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+footer{
+    background-color: #868181;
+}
+
+a{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
