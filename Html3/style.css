@@ -1,0 +1,183 @@
+#king {
+  background-color: #212b2d;
+  min-height: 100%;
+  width: 100%;
+}
+.mini {
+  width: 70%;
+  margin: auto;
+}
+
+.site {
+  background-image: url("/Html3/html_challenge_01.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position-y:center ;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 320px;
+  border: 1px solid #ffffff88;
+}
+.site-left {
+  height: 100%;
+  width: 50%;
+}
+.h1h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(255, 255, 255);
+  margin-top: 3em;
+  margin-left: 4em;
+}
+h3 {
+  font-weight: 300;
+  margin-top: -15px;
+  padding-left: 50px;
+}
+.site-right {
+  height: 100%;
+  width: 50%;
+}
+.nav {
+  height: 65px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.171);
+}
+.nav :first-child {
+  border-left: none;
+}
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-left: rgba(255, 255, 255, 0.284) solid 1px;
+  width: 250px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.gallery-menu {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  /* background-color: green; */
+  opacity: 0.7;
+}
+h1 {
+  color: white;
+}
+.menu {
+  width: 35%;
+  /* background-color: red; */
+  height: 20%;
+}
+.menu-title {
+  margin-left: 50px;
+  font-weight: 600;
+
+}
+.menu li {
+  color: white;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.menu a {
+  width: 50%;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.gallery {
+  padding-bottom: 10px;
+  /* background-color: blue; */
+  width: 65%;
+  /* height: 0%; */
+}
+
+.gallery-title {
+  /* background-color: #fff; */
+  width: 100%;
+  font-weight: 400;
+  padding-bottom: 20px;
+  border-bottom: rgba(255, 255, 255, 0.284) solid 1px;
+}
+.gallery-text{
+  color: white;
+  font-size: 17px;
+  margin-bottom: 40px;
+}
+.block-container{
+  /* background-color: blue; */
+  width: 20%;
+  color: white;
+  opacity: 0.7;
+  margin-top: -250px;
+}
+.block-title{
+ margin-left: 50px;
+margin-bottom: 40px;
+}
+.block-subtitle{
+  margin-left: -10px;
+  margin-bottom: 30px;
+}
+.block-text{
+  margin-left: 40px;
+}
+.sub-other{
+  display: flex;
+  color: white;
+  /* background-color: red; */
+}
+.subscription{
+  padding: 20px;
+}
+.subscription-title{
+  margin-left: 30px;
+/* background-color: red;   */
+}
+.subscription-text{
+  padding: 0px 30px;
+}
+
+.other-services-title{
+  margin-top: -20px;
+}
+
+.other-services{
+  height: 200px;
+  padding: 20px;
+  border-left: 1px solid white;
+  margin: auto;
+}
+
+button{
+  padding: 10px;
+  margin-left: 40px; 
+  font-weight: bold;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  margin: 0px 40px; 
+  color: white;
+}
+.radio{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: x-large;
+  color: white;
+}
+.button-submit{ 
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
